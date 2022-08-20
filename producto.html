@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Formulario producto</title>
+    <script
+      src="https://kit.fontawesome.com/fe471055c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/CSS/styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form action="#">
+        <fieldset>
+          <legend>Registro de producto</legend>
+          <div class="form-group">
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" />
+          </div>
+          <div class="form-group">
+            <label for="decripcion">Descripción:</label>
+            <input type="text" id="descripcion" />
+          </div>
+          <div class="form-group">
+            <label for="codigobarra">Código de barra:</label>
+            <input type="text" id="codigobarra" />
+          </div>
+          <div class="form-group">
+            <label for="precio">Precio unitario:</label>
+            <input type="text" id="precio" />
+          </div>
+          <div class="form-group">
+            <label for="stock">Stock:</label>
+            <input type="text" id="stock" />
+          </div>
+          <div class="form-group">
+            <label for="proveedor">Proveedor:</label>
+            <input type="text" id="proveedor" />
+          </div>
+          <div class="form-group2">
+            <label for="estado">Estado:</label>
+            <input type="checkbox" id="estado" /> Activo
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="categoria">Categoría:</label>
+            <select name="categoria" id="categoria">
+              <option value="categoria1">Categoría 1</option>
+              <option value="categoria2">Categoría 2</option>
+              <option value="categoria3">Categoría 3</option>
+              <option value="categoria4">Categoría 4</option>
+            </select>
+          </div>
+          <br />
+          <br />
+          <br />
+          <button id="guardar"><a href="./datos.html">Guardar</a></button>
+          <button id="cancelar"><a href="./index.html">Cancelar</a></button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

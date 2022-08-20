@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 5px 5px;
+}
+
+/* Index */
+
+table thead th a {
+  color: #fff;
+  background-color: green;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+table,
+th,
+td {
+  border: 2px solid #333;
+  border-collapse: collapse;
+  text-align: center center;
+  padding: 10px;
+}
+
+#editar {
+  border-right: 0px;
+}
+
+#eliminar {
+  border-left: 0px;
+}
+
+.button1 {
+  border: none;
+  color: #fff;
+  background-color: blue;
+  font-size: 16px;
+  border-radius: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button2 {
+  border: none;
+  color: #fff;
+  background-color: red;
+  font-size: 16px;
+  border-radius: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+td img {
+  color: #fff;
+}
+/* Producto */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  margin: 30px auto;
+  max-width: 450px;
+  padding: auto;
+}
+
+.form-group {
+  margin-top: 15px;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+
+.form-group input {
+  display: flex;
+  float: right;
+}
+
+.form-group2 label {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+
+#guardar {
+  background: #fff;
+  margin: auto;
+  float: left;
+}
+
+#cancelar {
+  background: #fff;
+  margin: auto;
+  float: right;
+}
